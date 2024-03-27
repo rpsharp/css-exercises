@@ -1,0 +1,71 @@
+.outercontainer {
+    border: 10px solid;
+    border-color: green;
+    background-color: lightgreen;
+}
+
+.container {
+    border: 10px solid;
+    border-color: blue;
+    background-color: lightblue;
+    display: flex;
+    margin: 20px;
+}
+
+.subcontainer {
+    display: flex;
+}
+
+.float {
+    border: 10px solid red;
+    background-color: pink;
+    height: 220px;
+    flex: 1;
+}
+
+.invis {
+    display: flex;
+    margin: 20px;
+}
+
+.inviscol {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-left: 20px;
+}
+
+.stack {
+    border: 10px solid red;
+    background-color: pink;
+    flex: 1;
+    margin-bottom: 20px;
+}
+
+.item {
+    border: 10px solid;
+    border-color: darkorange;
+    background-color: lightsalmon;
+    flex: 1;
+    margin: 10px;
+    height: 100px;
+    padding: 10px;
+}
+
+.subcontainer .item {
+    border: 10px solid red;
+    background: pink;
+    height: auto;
+    margin: 0px;
+}
+
+#outer {
+    border: 10px solid purple;
+    background: plum;
+    width: 300px;
+    flex: 2;
+}
+
+#inner {
+    flex: 1;
+}
